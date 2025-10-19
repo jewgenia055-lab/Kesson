@@ -215,7 +215,34 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+# =========================
+# PyTorch specific
+# =========================
 
+# PyTorch model checkpoints
+*.pth
+*.pt
+*.pth.tar
+*.pkl
+
+# PyTorch Lightning
+lightning_logs/
+
+# PyTorch model outputs and cache
+*.onnx
+model/
+models/
+checkpoints/
+runs/
+
+# Training logs and outputs
+logs/
+outputs/
+results/
+
+# TensorBoard
+runs/
+*.tfevents.*
 
 # =========================
 # Jupyter Notebook & Lab
