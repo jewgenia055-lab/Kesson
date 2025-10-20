@@ -244,6 +244,11 @@ results/
 runs/
 *.tfevents.*
 
+".devcontainer/" 
+
+
+
+
 # =========================
 # Jupyter Notebook & Lab
 # =========================
