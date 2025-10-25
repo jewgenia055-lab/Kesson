@@ -5,10 +5,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.6+-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org)
 [![phik](https://img.shields.io/badge/phik-0.12+-blue?logo=databricks&logoColor=white)](https://github.com/KaveIO/PhiK)
 [![Plotly](https://img.shields.io/badge/Plotly-5.24+-3F4F75?logo=plotly&logoColor=white)](https://plotly.com)
-<<<<<<< HEAD
 [![Docker](https://img.shields.io/badge/Docker-28.5+-2496ED?logo=docker&logoColor=white)](https://docker.com)
-=======
->>>>>>> b04fcf65043c370e6e6f9a7874a9b580d6ed32ba
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.50+-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
 
 
@@ -43,11 +40,8 @@
 ***Файлы проекта***
 | Файл | Назначение |
 |------------|------------|
-<<<<<<< HEAD
 | `.dockerignore` | Игнорируемые файлы Docker |
 | `Dockerfile` | Файл Docker |
-=======
->>>>>>> b04fcf65043c370e6e6f9a7874a9b580d6ed32ba
 | `.gitignore` | Игнорируемые файлы |
 | `app.py` | Streamlit приложение |
 | `requirements.txt` | Зависимости |
@@ -130,15 +124,12 @@
 ## Библитотеки и инструменты разработки
 
 **Инструменты разработки**
-<<<<<<< HEAD
+
 - VSCode
 - Jupyter Notebook
 - Python 3.12.3
 - Docker 28.5.1
-=======
-- Jupyter Notebook
-- Python 3.12.3
->>>>>>> b04fcf65043c370e6e6f9a7874a9b580d6ed32ba
+
 
 **Библиотеки**
 - Numpy 1.26.4
@@ -152,7 +143,6 @@
 
 **Визуализация**
 - Streamlit 1.50.0
-<<<<<<< HEAD
 
 **Запуск**
 
@@ -173,5 +163,4 @@ docker run -p 8501:8501 kesson
 http://localhost:8501
 
 ```
-=======
->>>>>>> b04fcf65043c370e6e6f9a7874a9b580d6ed32ba
+
