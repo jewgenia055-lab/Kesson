@@ -26,14 +26,35 @@
 
 **Источник данных :** В данном проекте исходные данные синтетические, результаты расчета Femap
 
+## Запуск проекта
+
+### Приложение Streamlit
+
+**Ссылка :** https://keappn-pu78x2bvkhfs5xi8hshycy.streamlit.app/
 
 ### Запуск тетради проекта
 
 **Важно :** Перед запуском тетради убедитесь, что структура проекта сохранена.
 
-## Приложение
+### Запуск в Docker
 
-**Приложение Streamlit :** https://keappn-pu78x2bvkhfs5xi8hshycy.streamlit.app/
+```
+#клонирование репозитория
+git clone https://github.com/jewgenia055-lab/Kesson.git
+
+#переход в директорию проекта
+cd Kesson
+
+#сборка Docker образа
+docker build -t kesson . 
+
+#запуск контейнера
+docker run -p 8501:8501 kesson
+
+#ссылка открытия в браузере
+http://localhost:8501
+
+```
 
 ## Структура проекта
 
@@ -143,24 +164,4 @@
 
 **Визуализация**
 - Streamlit 1.50.0
-
-**Запуск**
-
-```
-#клонирование репозитория
-git clone https://github.com/jewgenia055-lab/Kesson.git
-
-#переход в директорию проекта
-cd Kesson
-
-#сборка Docker образа
-docker build -t kesson . 
-
-#запуск контейнера
-docker run -p 8501:8501 kesson
-
-#ссылка открытия в браузере
-http://localhost:8501
-
-```
 
